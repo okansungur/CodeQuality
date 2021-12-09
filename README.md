@@ -101,6 +101,28 @@ Now we are ready to create a new project from the SonarQube web page that runs o
 </p>
 
 
+<p align="center">
+  <img  src="https://github.com/okansungur/CodeQuality/blob/main/images/sonarpro6.png"><br/>
+  SonarQube execute scanner maven  code
+</p>
+
+Now we are ready to open the command prompt as an administrator and paste the code and execute.It will be analayzed and prepared for our web interface. After the execution finishes open http://localhost:9000/projects. You will see the project name and the summary of analyzes. Click on the project explore the details.
+
+https://github.com/okansungur/CodeQuality/blob/main/images/sonarpro8.png
+
+
+When the bugs menu is clicked you will see a bug as we used Optional with null. And also it gives a description about the bug. 
+*The concept of Optional is that it will be used when null could cause errors. In a way, it replaces null, and when Optional is in use, there should never be a question of returning or receiving null from a call.*
+``` 
+ @Override
+    public Optional<Lecture> findLectureById(Long id){
+        Optional<Lecture> lecture=lectureRepository.findById(id);
+        if(lecture==null) throw new LectureNotFoundException();
+      ...
+```
+
+"null" should not be used with "Optional"
+
 ??sonar.issuesReport.html.enable=true
 h2 database init will auto create 
 mvn projesine dependency 
