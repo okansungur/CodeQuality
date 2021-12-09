@@ -6,14 +6,10 @@ And the quality of code can be measured continually over time.It is good for  de
 It is an open-source framework It is available for free under the GNU Lesser General Public License but you should pay for the enterprise edition. For generating pdf reports enterprise version is used.
 SonarQube is fully integrated with DevOps and can be alse used with Jenkins.
 
-SonarQube architecture consists the components
-- Sonar Scanner
-- Source Code
-- Sonar Analyzer
-- SonarQube Database
 
 
-## SonarQube Setup
+## SonarQube Setup for win 10
+To download [SonarQube](https://www.sonarqube.org/downloads/)
 sonarqube jdk 11 
 Set Maven_Home, Java_Home
 
