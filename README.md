@@ -180,7 +180,7 @@ Last notes about SonarQube:
 - For memory management issues  change  the conf/sonar.properties file.
 - Check the rules according to languages from rules menu.
 - You can check extra plugins from Administration, Marketting menu.
-- If you get an error *Could not create the Java Virtual Machine*. There is a problem with your java version. Versions beyond Java 11 are not supported.
+- If you get an error *Could not create the Java Virtual Machine*. There is a problem with your java version  thats why we used version Java 11 .
 
 
 
