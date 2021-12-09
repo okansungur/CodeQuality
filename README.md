@@ -16,10 +16,12 @@ download list is:
 Extract the zip files to a directory and set path properties for windows.
 <p align="center">
   <img  src="https://github.com/okansungur/CodeQuality/blob/main/images/javahome.png">
+  Setting Environment Variables JAVA_HOME
 </p>
 
 <p align="center">
   <img  src="https://github.com/okansungur/CodeQuality/blob/main/images/mavenhome.png">
+  Setting Environment Variables MAVEN_HOME
 </p>
 
 
