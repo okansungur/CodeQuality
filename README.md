@@ -4,7 +4,6 @@ SonarQube is used for code quality tool. It collects and analyze your souce code
 about code quality of the project. By the reports provided developers are able to see the bugs security issues and fix them before deploying to the production environment.
 And the quality of code can be measured continually over time.It is good for  detecting code complexity, time and cost of maintenance, and developing readable codes.
 It is an open-source framework It is available for free under the GNU Lesser General Public License but you should pay for the enterprise edition. For generating pdf reports enterprise version is used.
-
 SonarQube is fully integrated with DevOps and can be alse used with Jenkins.
 
 SonarQube architecture consists the components
@@ -12,6 +11,12 @@ SonarQube architecture consists the components
 - Source Code
 - Sonar Analyzer
 - SonarQube Database
+
+
+## SonarQube Setup
+sonarqube jdk 11 
+Set Maven_Home, Java_Home
+
 
 
 
@@ -32,7 +37,9 @@ But before this we have to modify our student project. We will be adding the fol
 
 
 ??sonar.issuesReport.html.enable=true
-
+h2 database init will auto create 
+mvn projesine dependency 
+go to  pom.xml ans run 
 
 After our analyses form the web interface we will be able to see some categories related with our project
 The categories can be listed as Bugs, Vulnerabilities, Security Hotspots, and Code Smells.
