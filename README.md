@@ -177,7 +177,9 @@ Non Compliant
 ``` 
 
 
+Last notes about SonarQube: 
+For memory management issues  change  the conf/sonar.properties file.
+Check the rules according to languages from  http://localhost:9000/coding_rules?languages=java
 
-For memory management issues we can change conf/sonar.properties by increasing the memory setting line. 
 
 
