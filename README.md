@@ -27,3 +27,6 @@ But before this we have to modify our student project. We will be adding the fol
                 </plugins>
             </pluginManagement>
 ```            
+
+
+??sonar.issuesReport.html.enable=true
