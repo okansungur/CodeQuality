@@ -62,7 +62,9 @@ Default admin credentials are:
 
 
 
-For test purposes, we have created a student springboot project.We will be using this project and SonarQube will analyze our code.
+For test purposes, we have created a student springboot project. The project has an embedded h2 database. There are students and lectures as enities. We try to get student names by using rest services. Also a test has been added to our project. We created a utility class with some non-compliant code examples. Also some unused imports and unused classes are available.
+
+We will be using this project and SonarQube will analyze our code.
 But before this we have to modify our student project. We will be adding the following lines to our pom.xml
 
 ```
