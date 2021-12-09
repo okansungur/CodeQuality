@@ -13,6 +13,7 @@ You can download SonarQube from [SonarQube-Download](https://www.sonarqube.org/d
 download list is:
 - jdk-11.0.13_windows-x64_bin.zip  
 - apache-maven-3.8.4-bin.zip
+- sonarqube-9.2.1.49989.zip
 Extract the zip files to a directory and set path properties for windows.
 <p align="center">
   <img  src="https://github.com/okansungur/CodeQuality/blob/main/images/javahome.png"><br/>
@@ -24,7 +25,15 @@ Extract the zip files to a directory and set path properties for windows.
   Setting Environment Variables MAVEN_HOME
 </p>
 
-And also please dont forget to add executables the folders to windows system path.
+And also please dont forget to add executables the folders to windows system path. Check your java and maven version from the command prompt. If it is set correctly then 
+From SonarQube installation directory, find StartSonar.bat and execute it.
+<p align="center">
+  <img  src="https://github.com/okansungur/CodeQuality/blob/main/images/sonar1.png"><br/>
+  StartSonar.bat from SonarQube installation directory
+</p>
+
+
+
 
 
 
