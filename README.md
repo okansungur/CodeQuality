@@ -117,7 +117,7 @@ Now we are ready to open the command prompt as an administrator and paste the co
   SonarQube bugs
 </p>
 
-When the bugs menu is clicked you will see a bug as we used Optional with null. And also it gives a description about the bug. 
+When the bugs menu is clicked you will see a bug as we used Optional with null. And also it gives a description about the bug when we click on **Why is this an issue?**
 
 *The concept of Optional is that it will be used when null could cause errors. In a way, it replaces null, and when Optional is in use, there should never be a question of returning or receiving null from a call.*
 
