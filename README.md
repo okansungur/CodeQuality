@@ -1,4 +1,17 @@
 # CodeQuality
+## What is  SonarQube?
+SonarQube is used for code quality tool. It collects and analyze your souce code and creates report 
+about code quality of the project. By the reports provided developers are able to see the bugs security issues and fix them before deploying to the production environment.
+And the quality of code can be measured continually over time.
+It is good for  detecting code complexity, time and cost of maintenance, and developing readable codes.
+It is an open-source framework It is available for free under the GNU Lesser General Public License but you should pay for the enterprise edition. For generating pdf reports enterprise version is used.
+
+SonarQube architecture consists the components
+1-Sonar Scanner
+2-Source Code
+3-Sonar Analyzer
+4-SonarQube Database
+
 
 First select your project that will be reviewed by Sonarqube
 ```
