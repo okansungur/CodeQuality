@@ -1,4 +1,6 @@
 # Code Quality with SonarQube on Windows
+As a software developer it is a nightmare to deal with a low quality code. You spend a lot of time trying to understand the code and fixing it.
+Good quality codes are readable it has proper indentation, and it is simple. Notations and names are descriptive. And implement changes are not so hard. 
 ## What is  SonarQube?
 SonarQube is used for code quality tool. It collects and analyze your souce code and creates report about code quality of the project. By the reports provided developers are able to see the bugs security issues and fix them before deploying to the production environment. The langugae support is great, including C#, Java, Python, Php, Go, Ruby. Also HTML javascript are supported.
 And the quality of code can be measured continually over time.It is good for  detecting code complexity, time and cost of maintenance, and developing readable codes.
