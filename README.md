@@ -13,7 +13,9 @@ SonarQube architecture consists the components
 
 
 
-First select your project that will be reviewed by Sonarqube
+For test purposes, we have created a student springboot project.We will be using this project and SonarQube will analyze our code.
+But before this we have to modify our student project. We will be adding the following lines to our pom.xml
+
 ```
      <pluginManagement>
                 <plugins>
