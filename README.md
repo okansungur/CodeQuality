@@ -132,12 +132,7 @@ When the bugs menu is clicked you will see a bug as we used Optional with null. 
 
 
 ??sonar.issuesReport.html.enable=true
-h2 database init will auto create 
-mvn projesine dependency 
-go to  pom.xml ans run 
 
-After our analyses form the web interface we will be able to see some categories related with our project
-The categories can be listed as Bugs, Vulnerabilities, Security Hotspots, and Code Smells.
-Overall Code screen there are some measurements such as bugs,Vulnerabilities, Security Hotspots .Vulnerabilities, Code smells .
+
 We know bugs an security hotspots. Vulnerabilities are the weak parts of your code potentially an attacker can use them.Code smells are not bugs. They point out the weak design issues.
 
