@@ -158,8 +158,10 @@ Compliant Solution
     
 ``` 
 
-Code Coverage is determining how much code is being tested.It helps to measure the quality of  tests. HAccording to our analyzes we have also 6 Security Hotspots to review.
-We have 4 issues about Cross-Site Request Forgery (CSRF).
+Code Coverage is determining how much code is being tested. It helps to measure the quality of  tests. Our analyze  has a coverage of 140 lines.
+According to our analyzes we have also 6 Security Hotspots to review.
+4 of the issues are about Cross-Site Request Forgery (CSRF).
+
 ``` 
 Non Compliant
 @RequestMapping("/lectures/{id}")
