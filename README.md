@@ -110,7 +110,7 @@ Now we are ready to create a new project from the SonarQube web page that runs o
   <img  src="https://github.com/okansungur/CodeQuality/blob/main/images/sonarpro8.png"><br/>
   SonarQube OverallCode
 </p>
-Now we are ready to open the command prompt as an administrator and paste the code and execute.It will be analayzed and prepared for our web interface. After the execution finishes open http://localhost:9000/projects. You will see the project name and the summary of analyzes. Click on the project explore the details.
+Now we are ready to open the command prompt as an administrator and paste the code and execute.It will be analayzed and prepared for our web interface. After the execution finishes open http://localhost:9000/projects. You will see the project name and the summary of analyzes. After our analyses form the web interface we will be able to see some categories related with our project.The categories can be listed as Bugs, Vulnerabilities, Security Hotspots, and Code Smells. Click on the project to explore the details.
 
 <p align="center">
   <img  src="https://github.com/okansungur/CodeQuality/blob/main/images/sonarpro9.png"><br/>
@@ -134,5 +134,5 @@ When the bugs menu is clicked you will see a bug as we used Optional with null. 
 ??sonar.issuesReport.html.enable=true
 
 
-We know bugs an security hotspots. Vulnerabilities are the weak parts of your code potentially an attacker can use them.Code smells are not bugs. They point out the weak design issues.
+We know bugs an security hotspots. Vulnerabilities are the weak parts of your code potentially an attacker can use them.Code smells are not bugs. They point out the weak design issues.The reports are very useful for the software developers.
 
