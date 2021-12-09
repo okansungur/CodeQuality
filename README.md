@@ -156,9 +156,7 @@ Compliant Solution
 }
     
 ``` 
-
-Code Coverage is determining how much code is being tested. It helps to measure the quality of  tests. Our analyze  has a coverage of 140 lines.
-According to our analyzes we have also 6 Security Hotspots to review.
+The Quality Gate lets us know if your project is ready for production. Code Coverage is determining how much code is being tested. It helps to measure the quality of  tests. Our analyze  has a coverage of 140 lines. According to our analyzes we have also 6 Security Hotspots to review.
 4 of the issues are about Cross-Site Request Forgery (CSRF).
 
 ``` 
@@ -171,8 +169,6 @@ Non Compliant
 
 
 
-
-maximum memory allocated to the appropriate process by increasing the -Xmx memory setting for the corresponding 
-The Quality Gate lets you know if your project is ready for production
+For memory management issues we can change conf/sonar.properties by increasing the memory setting line. 
 
 
