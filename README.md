@@ -157,8 +157,14 @@ Compliant Solution
     
 ``` 
 The Quality Gate lets us know if your project is ready for production. Code Coverage is determining how much code is being tested. It helps to measure the quality of  tests. Our analyze  has a coverage of 140 lines. According to our analyzes we have also 6 Security Hotspots to review.
-4 of the issues are about Cross-Site Request Forgery (CSRF).
 
+
+<p align="center">
+  <img  src="https://github.com/okansungur/CodeQuality/blob/main/images/sonarpro12.png"><br/>
+  SonarQube Security Hotspots
+</p>
+
+And 4 of the issues are about Cross-Site Request Forgery (CSRF).
 ``` 
 Non Compliant
 @RequestMapping("/lectures/{id}")
