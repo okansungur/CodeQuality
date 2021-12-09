@@ -132,7 +132,8 @@ When the bugs menu is clicked you will see a bug as we used Optional with null. 
   <img  src="https://github.com/okansungur/CodeQuality/blob/main/images/sonarpro11.png"><br/>
   SonarQube bugs
 </p>
-Another hint for the String.format method  *When the call to a function doesn’t have any side effects, what is the point of making the call if the results are ignored?*
+Another hint for the String.format method  
+*When the call to a function doesn’t have any side effects, what is the point of making the call if the results are ignored?*
 
 
 ??sonar.issuesReport.html.enable=true
