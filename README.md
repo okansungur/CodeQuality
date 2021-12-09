@@ -15,12 +15,12 @@ download list is:
 - apache-maven-3.8.4-bin.zip
 Extract the zip files to a directory and set path properties for windows.
 <p align="center">
-  <img  src="https://github.com/okansungur/CodeQuality/blob/main/images/javahome.png">
+  <img  src="https://github.com/okansungur/CodeQuality/blob/main/images/javahome.png"><br/>
   Setting Environment Variables JAVA_HOME
 </p>
 
 <p align="center">
-  <img  src="https://github.com/okansungur/CodeQuality/blob/main/images/mavenhome.png">
+  <img  src="https://github.com/okansungur/CodeQuality/blob/main/images/mavenhome.png"><br/>
   Setting Environment Variables MAVEN_HOME
 </p>
 
