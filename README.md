@@ -158,8 +158,15 @@ Compliant Solution
     
 ``` 
 
-
-
+Code Coverage is determining how much code is being tested.It helps to measure the quality of  tests. HAccording to our analyzes we have also 6 Security Hotspots to review.
+We have 4 issues about Cross-Site Request Forgery (CSRF).
+``` 
+Non Compliant
+@RequestMapping("/lectures/{id}")
+//...
+@RequestMapping("/delete_user", method = RequestMethod.POST)  // Compliant
+//...
+``` 
 
 
 
