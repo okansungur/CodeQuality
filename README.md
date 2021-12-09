@@ -15,6 +15,7 @@ download list is:
 - jdk-11.0.13_windows-x64_bin.zip  
 - apache-maven-3.8.4-bin.zip
 - sonarqube-9.2.1.49989.zip
+
 Extract the zip files to a directory and set path properties for windows.
 <p align="center">
   <img  src="https://github.com/okansungur/CodeQuality/blob/main/images/javahome.png"><br/>
