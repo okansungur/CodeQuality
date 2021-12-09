@@ -135,7 +135,7 @@ When the bugs menu is clicked you will see a bug as we used Optional with null. 
 Another hint for the String.format method  
 *When the call to a function doesn’t have any side effects, what is the point of making the call if the results are ignored?*
 
-We know bugs an security hotspots. <u>Vulnerabilities</u> are the weak parts of your code potentially an attacker can use them. <u>Code smells</u> are not bugs. They point out the weak design issues.The reports are very useful for the software developers.
+We know bugs an security hotspots. Vulnerabilities are the weak parts of your code potentially an attacker can use them. Code smells are not bugs. They point out the weak design issues.The reports are very useful for the software developers.
 
 
 
