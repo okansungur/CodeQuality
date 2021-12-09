@@ -62,10 +62,8 @@ Default admin credentials are:
 
 
 
-For test purposes, we have created a student springboot project. The project has an embedded h2 database. There are students and lectures as enities. We try to get student names by using rest services. Also a test has been added to our project. We created a utility class with some non-compliant code examples. Also some unused imports and unused classes are available.
-
-We will be using this project and SonarQube will analyze our code.
-But before this we have to modify our student project. We will be adding the following lines to our pom.xml
+For test purposes, we have created a student springboot project. The project has an embedded h2 database. There are students and lectures as enities. We try to get student names by using rest services. Also a test has been added to our project. We created a utility class with some non-compliant code examples. Also some unused imports and unused classes are available. 
+But before this we have to modify our student project. We will be adding the following lines to our pom.xml file.
 
 ```
      <pluginManagement>
@@ -78,6 +76,29 @@ But before this we have to modify our student project. We will be adding the fol
                 </plugins>
             </pluginManagement>
 ```            
+
+Now we are ready to create a new project from the SonarQube web page that runs on our localhost.
+
+
+<p align="center">
+  <img  src="https://github.com/okansungur/CodeQuality/blob/main/images/sonarpro1.png"><br/>
+  SonarQube create a project manually
+</p>
+
+<p align="center">
+  <img  src="https://github.com/okansungur/CodeQuality/blob/main/images/sonarpro2.png"><br/>
+  SonarQube create a display name and project key
+</p>
+
+<p align="center">
+  <img  src="https://github.com/okansungur/CodeQuality/blob/main/images/sonarpro3.png"><br/>
+  SonarQube analyze repository locally
+</p>
+
+<p align="center">
+  <img  src="https://github.com/okansungur/CodeQuality/blob/main/images/sonarpro5.png"><br/>
+  SonarQube providing token
+</p>
 
 
 ??sonar.issuesReport.html.enable=true
