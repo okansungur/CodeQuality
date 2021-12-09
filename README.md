@@ -31,9 +31,12 @@ From SonarQube installation directory, find StartSonar.bat and execute it.
   <img  src="https://github.com/okansungur/CodeQuality/blob/main/images/sonar1.png"><br/>
   StartSonar.bat from SonarQube installation directory
 </p>
+By default SonarQube runs on port 9000. The user name and password is admin.
 
-
-
+<p align="center">
+  <img  src="https://github.com/okansungur/CodeQuality/blob/main/images/sonarlogin.png"><br/>
+  StartSonar.bat from SonarQube installation directory
+</p>
 
 
 
