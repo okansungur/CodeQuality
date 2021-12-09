@@ -24,8 +24,7 @@ Extract the zip files to a directory and set path properties for windows.
   Setting Environment Variables MAVEN_HOME
 </p>
 
-
-
+And also please dont forget to add executables the folders to windows system path.
 
 
 
