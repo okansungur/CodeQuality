@@ -84,39 +84,39 @@ Now we are ready to create a new project from the SonarQube web page that runs o
 
 <p align="center">
   <img  src="https://github.com/okansungur/CodeQuality/blob/main/images/sonarpro1.png"><br/>
-  SonarQube create a project manually
+  SonarQube creating a project manually
 </p>
 
 <p align="center">
   <img  src="https://github.com/okansungur/CodeQuality/blob/main/images/sonarpro2.png"><br/>
-  SonarQube create a display name and project key
+  SonarQube creating a display name and a project key
 </p>
 
 <p align="center">
   <img  src="https://github.com/okansungur/CodeQuality/blob/main/images/sonarpro3.png"><br/>
-  SonarQube analyze repository locally
+  SonarQube analyzing repository locally
 </p>
 
 <p align="center">
   <img  src="https://github.com/okansungur/CodeQuality/blob/main/images/sonarpro5.png"><br/>
-  SonarQube providing token
+  SonarQube providing a token
 </p>
 
 
 <p align="center">
   <img  src="https://github.com/okansungur/CodeQuality/blob/main/images/sonarpro6.png"><br/>
-  SonarQube execute scanner maven  code
+  SonarQube executing scanner maven  code
 </p>
 
 <p align="center">
   <img  src="https://github.com/okansungur/CodeQuality/blob/main/images/sonarpro8.png"><br/>
-  SonarQube OverallCode
+  SonarQube overallcode analyze
 </p>
 Now we are ready to open the command prompt as an administrator and paste the code and execute.It will be analayzed and prepared for our web interface. After the execution finishes open http://localhost:9000/projects. You will see the project name and the summary of analyzes. After our analyses form the web interface we will be able to see some categories related with our project.The categories can be listed as Bugs, Vulnerabilities, Security Hotspots, and Code Smells. Click on the project to explore the details.
 
 <p align="center">
   <img  src="https://github.com/okansungur/CodeQuality/blob/main/images/sonarpro9.png"><br/>
-  SonarQube bugs
+  SonarQube detected bug
 </p>
 
 When the bugs menu is clicked you will see a bug as we used Optional with null. And also it gives a description about the bug when we click on **Why is this an issue?**
@@ -132,7 +132,7 @@ When the bugs menu is clicked you will see a bug as we used Optional with null. 
 ```
 <p align="center">
   <img  src="https://github.com/okansungur/CodeQuality/blob/main/images/sonarpro11.png"><br/>
-  SonarQube bugs
+  SonarQube detected bug
 </p>
 Another hint for the String.format method  
 *When the call to a function doesn’t have any side effects, what is the point of making the call if the results are ignored?*
