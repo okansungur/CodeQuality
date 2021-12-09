@@ -27,6 +27,13 @@ Extract the zip files to a directory and set path properties for windows.
 
 And also please dont forget to add executables the folders to windows system path. Check your java and maven version from the command prompt. If it is set correctly then 
 From SonarQube installation directory, find StartSonar.bat and execute it.
+'''
+$ java -version
+java version "11.0.13" 2021-10-19 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.13+10-LTS-370)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.13+10-LTS-370, mixed mode)
+'''
+
 <p align="center">
   <img  src="https://github.com/okansungur/CodeQuality/blob/main/images/sonar1.png"><br/>
   StartSonar.bat from SonarQube installation directory
