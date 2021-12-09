@@ -10,7 +10,7 @@ SonarQube is fully integrated with DevOps and can be alse used with Jenkins.
 
 
 ## SonarQube Setup for win 10
-You can download SonarQube from [SonarQube-Download](https://www.sonarqube.org/downloads/) We will use the  community edition.By the time, we write this tutorial SonarQube uses JDK version 11. So you have to download and install JDK version 11, if you dont have it installed. Also maven is needed to analyse our code. So our  
+You can download SonarQube from [SonarQube-Download](https://www.sonarqube.org/downloads/) We will use the  community edition.By the time, we write this tutorial SonarQube uses Java version 11. So you have to download and install Java version 11, if you dont have it installed. Also maven is needed to analyse our code. So our  
 download list is:
 - jdk-11.0.13_windows-x64_bin.zip  
 - apache-maven-3.8.4-bin.zip
@@ -176,10 +176,12 @@ Non Compliant
 //...
 ``` 
 
-
 Last notes about SonarQube: 
-For memory management issues  change  the conf/sonar.properties file.
-Check the rules according to languages from  http://localhost:9000/coding_rules?languages=java
+- For memory management issues  change  the conf/sonar.properties file.
+- Check the rules according to languages from rules menu.
+- You can check extra plugins from Administration, Marketting menu.
+- If you get an error *Could not create the Java Virtual Machine*. There is a problem with your java version. Versions beyond Java 11 are not supported.
+
 
 
 
