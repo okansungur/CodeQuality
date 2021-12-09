@@ -9,7 +9,7 @@ SonarQube is fully integrated with DevOps and can be alse used with Jenkins.
 
 
 ## SonarQube Setup for win 10
-To download [SonarQube](https://www.sonarqube.org/downloads/)
+You can download SonarQube from [SonarQube-Download](https://www.sonarqube.org/downloads/)
 sonarqube jdk 11 
 Set Maven_Home, Java_Home
 
