@@ -136,8 +136,27 @@ Another hint for the String.format method
 *When the call to a function doesn’t have any side effects, what is the point of making the call if the results are ignored?*
 
 We know bugs an security hotspots. Vulnerabilities are the weak parts of your code potentially an attacker can use them. Code smells are not bugs. They point out the weak design issues.The reports are very useful for the software developers.
+We have also created 5 unit tests and when we clicked on unit tests there is a warning about our public identifiers.It says that our code is noncompliant.
+JUnit4 which required everything to be public whereas in JUnit5 we don't have to use public as it will be more readable when it is not used.
+``` 
+Non Compliant Code
+ @Test
+    public void testHello() throws Exception {
+   // ...
+    @Test
+    public void testHello2() throws Exception {
+        this.mockMvc
+                .perform(MockMvcRequestBuilders.get("/MySpringBootWeb/hello"))
+  //  ...
+Compliant Solution
 
-
+  @Test
+  void testHello() {
+    // ...
+  
+}
+    
+``` 
 
 
 
