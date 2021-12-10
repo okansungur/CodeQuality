@@ -6,7 +6,8 @@ SonarQube is used for code quality tool. It collects and analyze your souce code
 With SonarQube the quality of code, can be measured continually over time.It is good for  detecting code complexity,reduces time and cost of maintenance, and helps developing readable codes.
 It is an open-source framework. It is available for free under the GNU Lesser General Public License, but you should pay for the enterprise edition.
 SonarQube is fully integrated with DevOps and can be alse used with Jenkins and gives support to langugaes, including C#, Java, Python, Php, Go, Ruby, Html, Javascript.
-[SonarQube](https://www.sonarqube.org/) 
+
+For more information please visit [SonarQube](https://www.sonarqube.org/) 
 
 
 
