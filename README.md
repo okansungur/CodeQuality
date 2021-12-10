@@ -50,9 +50,9 @@ OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
   StartSonar.bat from SonarQube installation directory
 </p>
 
-By default SonarQube runs on port 9000.To change the default port we should edit conf/sonar.priperties file.We can change the port to XXXX by modifiying the line
-*sonar.web.port=XXXX*
-
+By default SonarQube runs on port 9000. To change the default port, we should edit conf/sonar.priperties file. We can change the port to XXXX, by modifiying the line
+*sonar.web.port=9000*
+When you go to link localhost:9000 from your browser you will see SonarQube's login page.
 Default admin credentials are:
 
 - Login: admin
