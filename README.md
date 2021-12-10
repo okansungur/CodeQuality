@@ -113,7 +113,8 @@ Now we are ready to create a new project from the SonarQube web page that runs o
   <img  src="https://github.com/okansungur/CodeQuality/blob/main/images/sonarpro8.png"><br/>
   SonarQube overallcode analyze
 </p>
-Now we are ready to open the command prompt as an administrator and paste the code and execute.It will be analayzed and prepared for our web interface. After the execution finishes open http://localhost:9000/projects. You will see the project name and the summary of analyzes. After our analyses form the web interface we will be able to see some categories related with our project.The categories can be listed as Bugs, Vulnerabilities, Security Hotspots, and Code Smells. Click on the project to explore the details.
+
+Now we are ready to open the command prompt as an administrator. Paste and execute the code . It will be analayzed and reports will be available for us  from SonarQube's web interface. When the execution finishes successfully, open http://localhost:9000/projects link. You will see the project name and the summary of analyzes. From the web interface, we will be able to see some categories, related with our student project. The categories can be listed as Bugs, Vulnerabilities, Security Hotspots, and Code Smells. Click on the project to explore more details.
 
 <p align="center">
   <img  src="https://github.com/okansungur/CodeQuality/blob/main/images/sonarpro9.png"><br/>
@@ -138,9 +139,9 @@ When the bugs menu is clicked you will see a bug as we used Optional with null. 
 Another hint for the String.format method  
 *When the call to a function doesn’t have any side effects, what is the point of making the call if the results are ignored?*
 
-We know bugs an security hotspots. Vulnerabilities are the weak parts of your code potentially an attacker can use them. Code smells are not bugs. They point out the weak design issues. Comments, duplicates,dead code are some examples for code smells. The reports are very useful for the software developers.
-We have also created 5 unit tests and when we clicked on unit tests there is a warning about our public identifiers.It says that our code is noncompliant.
-JUnit4 which required everything to be public whereas in JUnit5 we don't have to use public as it will be more readable when it is not used.
+We know bugs an security hotspots. Vulnerabilities are the weak parts of our code, potentially an attacker can use them. Code smells are not bugs. They point out the weak design issues. Comments, duplicates, dead code are some examples for code smells. These reports are very useful, for the software developers.
+We have also created 5 unit tests and when we clicked on unit tests there is a warning about our public identifiers. It says that our code is noncompliant.
+'JUnit4 which required everything to be public whereas in JUnit5 we don't have to use public as it will be more readable when it is not used'.
 ``` 
 Non Compliant Code
  @Test
