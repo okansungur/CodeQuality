@@ -19,7 +19,7 @@ You can download SonarQube from [SonarQube-Download](https://www.sonarqube.org/d
 
 Extract the zip files to a directory and  set the environmental properties for windows.
 <p align="center">
-  <img  src="https://github.com/okansungur/CodeQuality/blob/main/images/javahome.png"><br/>
+  <img  src="images/javahome.png"><br/>
   Setting Environment Variables JAVA_HOME
 </p>
 
