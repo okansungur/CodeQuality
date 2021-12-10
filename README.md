@@ -85,22 +85,22 @@ Now we are ready to create a new project from the SonarQube web page that runs o
 
 <p align="center">
   <img  src="https://github.com/okansungur/CodeQuality/blob/main/images/sonarpro1.png"><br/>
-  SonarQube creating a project manually
+  *SonarQube creating a project manually*
 </p>
 
 <p align="center">
   <img  src="https://github.com/okansungur/CodeQuality/blob/main/images/sonarpro2.png"><br/>
-  SonarQube creating a display name and a project key
+  *SonarQube creating a display name and a project key*
 </p>
 
 <p align="center">
   <img  src="https://github.com/okansungur/CodeQuality/blob/main/images/sonarpro3.png"><br/>
-  SonarQube analyzing repository locally
+  *SonarQube analyzing repository locally*
 </p>
 
 <p align="center">
   <img  src="https://github.com/okansungur/CodeQuality/blob/main/images/sonarpro5.png"><br/>
-  SonarQube providing a token
+  *SonarQube providing a token*
 </p>
 
 
