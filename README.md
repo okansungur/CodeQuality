@@ -52,7 +52,7 @@ OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
 
 By default SonarQube runs on port 9000. To change the default port, we should edit conf/sonar.priperties file. We can change the port to XXXX, by modifiying the line
 *sonar.web.port=9000*
-When you go to link localhost:9000 from your browser you will see SonarQube's login page.
+When you go to link localhost:9000, you will see SonarQube's login page.
 Default admin credentials are:
 
 - Login: admin
@@ -65,7 +65,7 @@ Default admin credentials are:
 
 
 
-For test purposes, we have created a student springboot project. The project has an embedded h2 database. There are students and lectures as enities. We try to get student names by using rest services. Also a test has been added to our project. We created a utility class with some non-compliant code examples. Also some unused imports and unused classes are available. 
+For testing purposes, we have created a student springboot project. The project has an embedded h2 database. There are students and lectures as enities. We get the student names, by using rest services. Also some unit tests were added to the project. We created a utility class with some non-compliant code examples. Also some unused imports and classes are available.
 But before this we have to modify our student project. We will be adding the following lines to our pom.xml file.
 
 ```
@@ -106,7 +106,7 @@ Now we are ready to create a new project from the SonarQube web page that runs o
 
 <p align="center">
   <img  src="https://github.com/okansungur/CodeQuality/blob/main/images/sonarpro6.png"><br/>
-  SonarQube executing scanner maven  code
+  SonarQube executing scanner maven code
 </p>
 
 <p align="center">
