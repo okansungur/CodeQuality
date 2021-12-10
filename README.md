@@ -1,11 +1,12 @@
 # Code Quality with SonarQube on Windows
 As a software developer it is a nightmare to deal with a low quality code. You spend a lot of time trying to understand the code and fixing it.
-Good quality codes are readable it has proper indentation, and it is simple. Notations and names are descriptive. And implementing changes to the new code are not so hard. 
+Good quality codes are readable, it has proper indentation, and it is simple. Notations and names are descriptive. And implementing changes to the new code, are not so hard. 
 ## What is  SonarQube?
-SonarQube is used for code quality tool. It collects and analyze your souce code and creates report about code quality of the project. By the reports provided developers are able to see the bugs security issues and fix them before deploying to the production environment. The langugae support is great, including C#, Java, Python, Php, Go, Ruby. Also HTML javascript are supported.
-And the quality of code can be measured continually over time.It is good for  detecting code complexity, time and cost of maintenance, and developing readable codes.
-It is an open-source framework It is available for free under the GNU Lesser General Public License but you should pay for the enterprise edition. For generating pdf reports enterprise version is used.
-SonarQube is fully integrated with DevOps and can be alse used with Jenkins.
+SonarQube is used for code quality tool. It collects and analyze your souce code and creates reports about the code quality of the project. By the reports provided, developers are able to see the bugs, security issues and fix them before deploying to the production environment. 
+With SonarQube the quality of code, can be measured continually over time.It is good for  detecting code complexity,reduces time and cost of maintenance, and helps developing readable codes.
+It is an open-source framework. It is available for free under the GNU Lesser General Public License, but you should pay for the enterprise edition.
+SonarQube is fully integrated with DevOps and can be alse used with Jenkins and gives support to langugaes, including C#, Java, Python, Php, Go, Ruby, Html, Javascript.
+[SonarQube](https://www.sonarqube.org/) 
 
 
 
