@@ -12,8 +12,7 @@ For more information please visit [SonarQube](https://www.sonarqube.org/)
 
 
 ## SonarQube Setup for win 10
-You can download SonarQube from [SonarQube-Download](https://www.sonarqube.org/downloads/) We will use the  community edition.By the time, we write this tutorial SonarQube uses Java version 11. So you have to download and install Java version 11, if you dont have it installed. Also maven is needed to analyse our code. So our  
-download list is:
+You can download SonarQube from [SonarQube-Download](https://www.sonarqube.org/downloads/). We will use the  community edition. By the time, we write this tutorial, SonarQube use Java version 11. So you have to download and install Java version 11. Also maven is needed to analyze our code. So our download list is as follows:
 - jdk-11.0.13_windows-x64_bin.zip  
 - apache-maven-3.8.4-bin.zip
 - sonarqube-9.2.1.49989.zip
