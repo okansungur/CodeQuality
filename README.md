@@ -90,7 +90,7 @@ Now we are ready to create a new project from the SonarQube web page that runs o
 
 <p align="center">
   <img  src="https://github.com/okansungur/CodeQuality/blob/main/images/sonarpro2.png"><br/>
-  SonarQube creating a display name and a project ke
+  SonarQube creating a display name and a project key
 </p>
 
 <p align="center">
